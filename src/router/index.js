@@ -4,6 +4,7 @@ import HomeView from '../views/HomeView.vue'
 import LoginView from '../views/Login.vue'
 import SignView from '../views/Sign.vue'
 import aboutView from '../views/AboutView.vue'
+import PhotoView from '../views/Photography.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -21,6 +22,11 @@ const routes = [
     path: '/sign',
     name: 'sign',
     component: SignView
+  },
+  {
+    path: '/photography',
+    name: 'photography',
+    component: PhotoView
   },
   {
     path: '/about',
